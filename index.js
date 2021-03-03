@@ -4,7 +4,6 @@ const fs = require("fs")
 const app = express()
 
 app.use(express.json())
-res.header("Access-Control-Allow-Origin", "*")
 
 let data = JSON.parse(fs.readFileSync("./data.json"))
 
