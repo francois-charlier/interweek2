@@ -31,4 +31,6 @@ function draw_map() {
         tileSize: 512,
         zoomOffset: -1
     }).addTo(mymap);
+    
+    L.polyline(coo_demo, {color: 'red'}).addTo(mymap);
 }
